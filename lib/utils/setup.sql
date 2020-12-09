@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS chilis;
+
+CREATE TABLE chilis (
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    brand TEXT NOT NULL,
+    description TEXT,
+    image_url TEXT NOT NULL
+);
